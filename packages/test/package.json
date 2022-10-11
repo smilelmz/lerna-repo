@@ -1,5 +1,5 @@
 {
-  "name": "@smile/test-01",
+  "name": "smile-test-01",
   "version": "0.0.5",
   "description": "> TODO: description",
   "author": "liangmz <1014241125@qq.com>",
@@ -15,10 +15,8 @@
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
-    "access": "public"
   },
   "scripts": {
-    "test": "node ./__tests__/test.test.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +26,5 @@
   "dependencies": {
     "classnames": "^2.3.2"
   },
-  "gitHead": "3aa0b99ee3e41df88d2ed7d0b60ae77a4a1c5528"
+  "gitHead": "6c92114770a37927090346895e92bb2be8b25f27"
 }
