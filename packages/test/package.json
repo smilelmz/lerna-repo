@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "@smile/test-01",
   "version": "0.0.3",
   "description": "> TODO: description",
   "author": "liangmz <1014241125@qq.com>",
@@ -26,5 +26,6 @@
   },
   "dependencies": {
     "classnames": "^2.3.2"
-  }
+  },
+  "gitHead": "4278c419b7b571c4cbc4596a285346c3b8a7dc48"
 }
