@@ -1,0 +1,27 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "useNx": true,
+  "useWorkspaces": true,
+  "command": {
+    "version": {
+      "exact": true
+    }
+  },
+  "bootstrap": {
+    "ignore": "component-*",
+    "npmClientArgs": ["--no-package-lock"]
+  },
+  "version": "independent",
+  "npmClient": "yarn",
+  "ignoreChanges": [
+    "**/*.md",
+    "**/*.test.ts",
+    "**/*.e2e.ts",
+    "**/demos/**",
+    "**/fixtures/**",
+    "**/dist/**",
+    "**/lib/**",
+    "**/es/**",
+    "**/test/**"
+  ]
+}
