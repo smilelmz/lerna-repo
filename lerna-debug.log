@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: 'LibB',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '5.6.2',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: 'LibA'
+0 silly argv }
+1 notice cli v5.6.2
+2 verbose rootPath /Users/lmz/Documents/workspace/LmzUtil/lerna-repo
+3 info versioning independent
+4 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmmirror.com/LibA - [NOT_FOUND] LibA not found
+4 error     at /Users/lmz/Documents/workspace/LmzUtil/lerna-repo/node_modules/npm-registry-fetch/lib/check-response.js:95:15
+4 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+4 error     at async RegistryFetcher.packument (/Users/lmz/Documents/workspace/LmzUtil/lerna-repo/node_modules/pacote/lib/registry.js:92:19)
