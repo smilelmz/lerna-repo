@@ -5,9 +5,16 @@
   "keywords": [
     "cli-utils"
   ],
-  "author": "梁美座 <1014241125@qq.com>",
   "homepage": "https://github.com/smilelmz/lmz-utils#readme",
+  "bugs": {
+    "url": "https://github.com/smilelmz/lmz-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/smilelmz/lmz-utils.git"
+  },
   "license": "ISC",
+  "author": "梁美座 <1014241125@qq.com>",
   "main": "lib/cli-utils.js",
   "directories": {
     "lib": "lib",
@@ -16,21 +23,19 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npm.taobao.org"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/smilelmz/lmz-utils.git"
-  },
   "scripts": {
-    "test": "node ./__tests__/cli-utils.test.js"
-  },
-  "bugs": {
-    "url": "https://github.com/smilelmz/lmz-utils/issues"
+    "lint-staged": "eslint --ext .js,.ts",
+    "test": "ts-jest"
   },
   "dependencies": {
     "chalk": "^5.1.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/jest": "^29.2.3",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org"
+  }
 }
