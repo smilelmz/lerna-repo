@@ -5,6 +5,10 @@
   "command": {
     "version": {
       "exact": true
+    },
+    "publish": {
+      "ignoreChanges": ["ignored-file", "*.md"],
+      "message": "chore(release): publish"
     }
   },
   "bootstrap": {
@@ -12,5 +16,16 @@
     "npmClientArgs": ["--no-package-lock"]
   },
   "version": "independent",
-  "npmClient": "yarn"
+  "npmClient": "yarn",
+  "ignoreChanges": [
+    "**/*.md",
+    "**/*.test.ts",
+    "**/*.e2e.ts",
+    "**/demo/*",
+    "**/fixture/*",
+    "**/dist/*",
+    "**/lib/*",
+    "**/es/*",
+    "**/__tests__/*"
+  ]
 }
