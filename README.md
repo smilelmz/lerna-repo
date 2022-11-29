@@ -5,7 +5,7 @@
 Install dependencies,
 
 ```bash
-$ npm i
+$ yarn
 ```
 
 Start the dev server,
@@ -17,17 +17,17 @@ $ npm start
 Build documentation,
 
 ```bash
-$ npm run docs:build
+$ yarn docs:build
 ```
 
 Run test,
 
 ```bash
-$ npm test
+$ yarn test
 ```
 
 Build library via `father`,
 
 ```bash
-$ npm run build
+$ yarn build
 ```
