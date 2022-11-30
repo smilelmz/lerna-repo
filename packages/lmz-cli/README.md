@@ -1,11 +1,11 @@
-# `cli-utils`
+# `lmz-cli`
 
 > TODO: description
 
 ## Usage
 
 ```
-const cliUtils = require('cli-utils');
+const lmzCli = require('lmz-cli');
 
 // TODO: DEMONSTRATE API
 ```
