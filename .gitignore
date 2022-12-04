@@ -23,7 +23,7 @@ packages/*/node_modules
 .env.local
 
 # ide
-/.vscode
+# /.vscode
 /.idea
 
 lerna-debug.log
